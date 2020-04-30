@@ -57,7 +57,7 @@ We use [Minikube](https://kubernetes.io/docs/getting-started-guides/minikube/) i
 
     ```bash
     git clone https://github.com/apache/pulsar
-    cd deployment/kubernetes/helm/
+    cd pulsar/deployment/kubernetes/helm/
     ```
 
 2. Run `prepare_helm_release.sh` to create secrets required for installing Apache Pulsar Helm chart. The username `pulsar` and password `pulsar` are used for logging into Grafana dashboard and Pulsar Manager.
